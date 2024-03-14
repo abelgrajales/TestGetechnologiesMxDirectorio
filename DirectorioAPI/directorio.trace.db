@@ -1,0 +1,6 @@
+2024-03-14 01:21:27.095533-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PERSONA" not found (this database is empty); SQL statement:
+select p1_0.id,p1_0.apellidoMaterno,p1_0.apellidoPaterno,p1_0.identificacion,p1_0.nombre from persona p1_0 [42104-224]
+2024-03-14 01:21:48.305204-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PERSONA" not found (this database is empty); SQL statement:
+select p1_0.id,p1_0.apellidoMaterno,p1_0.apellidoPaterno,p1_0.identificacion,p1_0.nombre from persona p1_0 [42104-224]
