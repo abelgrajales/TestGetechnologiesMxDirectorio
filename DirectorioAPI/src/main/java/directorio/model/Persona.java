@@ -28,7 +28,6 @@ public class Persona{
 
     @JsonIgnoreProperties("persona")
     @OneToMany(mappedBy = "persona", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    @JsonManagedReference
     private List<Factura> facturas;
 
     public Persona() {
